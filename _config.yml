@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jian Tang"
-description              : "This is the academic homepage of Ph.D. Tang."
+title                    : "Xinyao Wu (Yoyo)"
+description              : "This is the academic homepage of Xinyao."
 repository               : "xw1519/xw1519.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jian Tang"
+  name             : "Xinyao Wu (Yoyo)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Huazhong university of science and technology"
-  location         : "Wuhan, China"
+  bio              : 
+  location         : "Hong Kong"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=WMkMTb4AAAAJ"
-  email            : "tangj@hust.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Jian-Tang-53"
+  googlescholar    : "https://scholar.google.com/citations?user=kbH1Lz4AAAAJ&hl=en"
+  email            : "xinyaowu@link.cuhk.edu.hk"
+  researchgate     : 
   uri              : 
   bitbucket        :
   codepen          :
@@ -37,15 +37,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "tangjyan"
+  github           : "https://github.com/xw1519"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "https://www.linkedin.com/in/xinyao-wu-011203/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0001-9658-209X"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
