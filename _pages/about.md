@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I am a third-year Ph.D. student in Biomedical Engineering at The Chinese University of Hong Kong, supervised by Prof. Raymond Kai-yu Tong. I received the B.S. and M.E. degrees from Imperial College London in 2023. I have published my research in top venues, such as Medical Image Analysis (MedIA), ICLR, and MICCAI, where I was recognized as a finalist for the MICCAI Young Scientist Award in 2024. My research interests include continual learning, medical image analysis, foundation models, and multimodal learning. 
- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+ <a href='https://scholar.google.com/citations?user=kbH1Lz4AAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 My research interest includes: 
 - Instrumentation
