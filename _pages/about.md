@@ -27,15 +27,15 @@ I am a third-year Ph.D. student in Biomedical Engineering at [The Chinese Univer
  
 
 # 📝 Publications 
+\* indicates authors with equal contributions. ✉ indicates the corresponding author or project lead.
 
-### English 
----
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sensors 2022</div><img src='images/sensors2022.svg' alt="sym" width="100%"></div></div>
+## Journal
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/sensors2022.svg' alt="Mechanism of magnetic flux leakage" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
--	`Jian Tang`, Rongbiao Wang, Gongzhe Qiu, Yu Hu, Yihua Kang. Mechanism of magnetic flux leakage detection method based on the slotted ferromagnetic lift-off layer. *Sensors*. 2022, 22(9): 3587. (JCR:Q2; IF:3.847)  
-[[HTML]](https://dx.doi.org/10.3390/s22093587) [[Preview]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf) [[PDF]](/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf)
-
+<p style="margin:0 0 0.35em 0;"><strong style="color:#b13a2d; font-size:1.15em;">Mechanism of magnetic flux leakage detection method based on the slotted ferromagnetic lift-off layer</strong></p>
+<p style="margin:0.2em 0;"><strong>Jian Tang</strong>, Rongbiao Wang, Gongzhe Qiu, Yu Hu, Yihua Kang.</p>
+<p style="margin:0.2em 0;"><em>Sensors</em>, 2022, 22(9): 3587.</p>
+<p style="margin:0.2em 0; color:#b13a2d;"><em>(IF: 3.847, JCR-Q2)</em> [<a href="https://dx.doi.org/10.3390/s22093587">paper</a>] [<a href="/pdf/TangJ-2022-Mechanism%20of%20Magnetic%20Flux%20Leakage%20Detection%20Method%20Based%20on%20the%20Slotted.pdf">pdf</a>]</p>
 </div>
 </div>
 
