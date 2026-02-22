@@ -22,8 +22,8 @@ I am a third-year Ph.D. student in Biomedical Engineering at [The Chinese Univer
 
 
 # 🎓 Educations 
-- *2019.09 - 2023.06*, <a href="https://www.imperial.ac.uk/"><img class="svg" src="/images/IC_logo.png" width="23pt"></a> Department of Biomedical Engineering, Imperial College London. 
-- *2023.08 - 2027.07*, <a href="https://www.cuhk.edu.hk/english/faculties/engineering.html"><img class="svg" src="/images/CUHK_logo.jpg" width="20pt"></a> Department of Biomedical Engineering, The Chinese University of Hong Kong.
+- *2019.09 - 2023.06*, Master of Engineering (MEng) <a href="https://www.imperial.ac.uk/"><img class="svg" src="/images/IC_logo.png" width="23pt"></a> Department of Biomedical Engineering, Imperial College London. 
+- *2023.08 - 2027.07*, Ph. D. <a href="https://www.cuhk.edu.hk/english/faculties/engineering.html"><img class="svg" src="/images/CUHK_logo.jpg" width="20pt"></a> Department of Biomedical Engineering, The Chinese University of Hong Kong.
  
 
 # 📝 Publications 
