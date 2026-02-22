@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xinyao Wu (Yoyo)"
-description              : "This is the academic homepage of Xinyao."
+description              : 
 repository               : "xw1519/xw1519.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -24,7 +24,7 @@ author:
   name             : "Xinyao Wu (Yoyo)"
   avatar           : "images/android-chrome-512x512.png"
   bio              : 
-  location         : "Hong Kong"
+  location         : "Hong Kong | London"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=kbH1Lz4AAAAJ&hl=en"
