@@ -7,6 +7,15 @@ date: 2025-07-29
 venue: 'Medical Image Analysis'
 excerpt: '(IF: 11.8, JCR-Q1) [Invited paper - MICCAI 2024 Special Issue]'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1361841525002919?via%3Dihub'
+citation: |
+  @article{wu2025multi,
+    title={Multi-Faceted Consistency learning with active cross-labeling for barely-supervised 3D medical image segmentation},
+    author={Wu, Xinyao and Xu, Zhe and Tong, Raymond Kai-yu},
+    journal={Medical Image Analysis},
+    pages={103744},
+    year={2025},
+    publisher={Elsevier}
+  }
 ---
 
 
