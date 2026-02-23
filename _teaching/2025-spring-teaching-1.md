@@ -1,6 +1,7 @@
 ---
 title: "Graduate Teaching Assistant"
 collection: teaching
+category: teaching
 type: "Undergraduate course"
 excerpt: "CUHK ENGG1040 – Foundations in Engineering Mathematics"
 permalink: /teaching/2025-spring-teaching-1

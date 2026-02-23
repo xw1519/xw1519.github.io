@@ -90,7 +90,13 @@ publication_category:
     title: 'Journal'  
   preprints:
     title: 'Preprints'
-    
+
+teaching_category:
+  review:
+    title: 'Reviewer'  
+  teaching:
+    title: 'Teaching'
+  
   
 
 # Site Settings

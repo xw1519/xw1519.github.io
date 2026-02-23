@@ -1,6 +1,7 @@
 ---
 title: "Graduate Teaching Assistant"
 collection: teaching
+category: teaching
 type: "Undergraduate course"
 excerpt: "CUHK BMEG4010 – Medical Device Regulatory Affairs"
 permalink: /teaching/2025-spring-teaching-2

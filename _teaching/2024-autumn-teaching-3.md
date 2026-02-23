@@ -1,6 +1,7 @@
 ---
 title: "Graduate Teaching Assistant"
 collection: teaching
+category: teaching
 type: "Undergraduate course"
 excerpt: "CUHK BMEG3103 - Big Data in Healthcare"
 permalink: /teaching/2024-spring-teaching-3
