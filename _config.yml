@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Xinyao Wu"
   pronouns         : # example: "she/her"  
-  bio              : "Born to be Brave"
+  bio              : "xinyaowu@link.cuhk.edu.hk"
   location         : "HK | London"
   employer         : "CUHK | Imperial"
   uri              : # URL
-  email            : "xinyaowu@link.cuhk.edu.hk" 
+  email            : # 
 
   # Academic websites
   academia         : # URL
