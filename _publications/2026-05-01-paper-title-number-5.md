@@ -3,13 +3,12 @@ title: "Random Anchors with Low-rank Decorrelated Learning: A Minimalist Pipelin
 collection: publications
 category: conferences
 permalink: /publication/2026-05-01-paper-title-number-5
-excerpt: "..."
 date: 2026-05-01
 venue: "International Conference on Learning Representations (ICLR)"
 paperurl: "https://github.com/CUHK-BMEAI/RA-LDL"
 
 header:
-  teaser: /images/publications/yourthumb.png
+  teaser: /images/publications/Fig_RALDL.png
 
 citation: |
   @inproceedings{raldl2026,
