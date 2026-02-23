@@ -3,7 +3,6 @@ title: "Conservative-Radical Complementary Learning for Class-incremental Medica
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
 date: 2025-09-20
 venue: 'Medical Image Computing and Computer Assisted Interventions (MICCAI)'
 paperurl: 'https://papers.miccai.org/miccai-2025/paper/0019_paper.pdf'
