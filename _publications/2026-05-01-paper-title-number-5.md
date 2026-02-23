@@ -6,7 +6,7 @@ permalink: /publication/2026-05-01-paper-title-number-5
 excerpt: "..."
 date: 2026-05-01
 venue: "International Conference on Learning Representations (ICLR)"
-codeurl: "https://github.com/CUHK-BMEAI/RA-LDL"
+paperurl: "https://github.com/CUHK-BMEAI/RA-LDL"
 
 header:
   teaser: /images/publications/yourthumb.png
