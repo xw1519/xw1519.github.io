@@ -4,5 +4,5 @@ collection: publications
 category: preprints
 permalink: /publication/2026-12-31-paper-title-number-6
 date: 2026-12-31
-venue: "Preprint"
+excerpt: "Preprint"
 ---

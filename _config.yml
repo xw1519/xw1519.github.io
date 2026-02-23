@@ -84,12 +84,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  preprints:
-    title: 'Preprints'
-  manuscripts:
-    title: 'Journal'    
   conferences:
     title: 'Conference'
+  manuscripts:
+    title: 'Journal'  
+  preprints:
+    title: 'Preprints'
+    
+  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
