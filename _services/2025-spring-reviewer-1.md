@@ -1,8 +1,8 @@
 ---
 title: "Regular Reviewer"
-collection: teaching
+collection: services
 category: review
 venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
-permalink: /teaching/2025-spring-reviewer-1
+permalink: /services/2025-spring-reviewer-1
 date: 2025-03-01
 ---

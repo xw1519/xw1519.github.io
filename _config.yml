@@ -91,7 +91,7 @@ publication_category:
   preprints:
     title: 'Preprints'
 
-teaching_category:
+service_category:
   review:
     title: 'Reviewer'  
   teaching:
@@ -229,7 +229,7 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
+  services:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -266,7 +266,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: services
     values:
       layout: single
       author_profile: true

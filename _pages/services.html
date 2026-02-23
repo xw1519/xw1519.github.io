@@ -1,16 +1,16 @@
 ---
 layout: archive
-title: "Teaching"
-permalink: /teaching/
+title: "Services"
+permalink: /services/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% if site.teaching_category %}
-  {% for category in site.teaching_category %}
+{% if site.service_category %}
+  {% for category in site.service_category %}
     {% assign title_shown = false %}
-    {% for post in site.teaching reversed %}
+    {% for post in site.services reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -24,7 +24,7 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.teaching reversed %}
+  {% for post in site.services reversed %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
