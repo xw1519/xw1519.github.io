@@ -3,6 +3,7 @@ title: "Random Anchors with Low-rank Decorrelated Learning: A Minimalist Pipelin
 collection: publications
 category: conference
 date: 2026-04
+venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://github.com/CUHK-BMEAI/RA-LDL'
 citation: 'Xinyao Wu*, Zhe Xu*, Raymond Tong.'
 ---
