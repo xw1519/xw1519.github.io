@@ -253,26 +253,26 @@
   }
 
   .archive__item-teaser {
-    flex: 0 0 280px;      /* 左图固定宽度，可改 240/300 */
+    flex: 0 0 280px;     /* 左图固定宽度 */
     max-width: 280px;
   }
 
   .archive__item-teaser img {
     width: 100%;
-    height: 170px;        /* 左图固定高度（“固定长度”） */
-    object-fit: cover;    /* 自动裁剪填满 */
+    height: 170px;       /* 左图固定高度 */
+    object-fit: cover;   /* 裁剪填满 */
     display: block;
-    border-radius: 8px;   /* 可选 */
+    border-radius: 8px;
   }
 
   .archive__item-body {
     flex: 1 1 auto;
-    min-width: 0;         /* 防止长标题把布局撑炸 */
+    min-width: 0;
   }
 }
 
-/* 小屏幕自动上下堆叠 */
-@include breakpoint($small) {
+/* 小屏幕上下堆叠：用 max-width 媒体条件写法更稳 */
+@include breakpoint(max-width $medium) {
   .list__item .archive__item {
     flex-direction: column;
   }
@@ -281,6 +281,6 @@
     flex-basis: auto;
   }
   .list__item .archive__item-teaser img {
-    height: auto; /* 手机上就不强行固定高度 */
+    height: auto;
   }
 }
