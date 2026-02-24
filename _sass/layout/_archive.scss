@@ -244,30 +244,45 @@
   }
 }
 
-/* Publications list: left image + right text */
+/* ===== Publications 左图+右文 布局 ===== */
 .list__item {
+
   .archive__item {
     display: flex;
-    gap: 1.25rem;
-    align-items: center;
+    gap: 1.4rem;
+    align-items: center;   /* ⭐ 垂直居中关键 */
   }
 
+  /* 左侧图片块 */
   .archive__item-teaser {
-    flex: 0 0 280px;     /* 左图固定宽度 */
-    max-width: 280px;
+    flex: 0 0 260px;
+    max-width: 260px;
   }
 
   .archive__item-teaser img {
     width: 100%;
-    height: 170px;       /* 左图固定高度 */
-    object-fit: cover;   /* 裁剪填满 */
+    height: 160px;         /* 固定高度 */
+    object-fit: cover;
+    border-radius: 10px;
     display: block;
-    border-radius: 8px;
   }
 
+  /* 右侧文字 */
   .archive__item-body {
-    flex: 1 1 auto;
+    flex: 1;
     min-width: 0;
+  }
+
+  /* 标题间距微调 */
+  .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    line-height: 1.25;
+  }
+
+  /* venue 行 */
+  .archive__item-body p {
+    margin: 0.35rem 0;
   }
 }
 
