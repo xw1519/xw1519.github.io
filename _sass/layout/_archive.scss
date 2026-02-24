@@ -245,9 +245,9 @@
 }
 
 /* ===== Publications: force row layout (override column) ===== */
-.page__content .archive .pub__item .archive__item{
+.pub__item .archive__item {
   display: flex;
-  flex-direction: row !important;  /* 关键：从 column 扳回 row */
+  flex-direction: row;
   gap: 1.4rem;
   align-items: flex-start;
 }
@@ -266,12 +266,8 @@
 }
 
 /* 手机端上下堆叠 */
-@include breakpoint($small) {
+@media (max-width: 37.5em) {
   .pub__item .archive__item {
     flex-direction: column;
-  }
-  .pub__item .archive__item-teaser {
-    max-width: 100%;
-    flex-basis: auto;
   }
 }
