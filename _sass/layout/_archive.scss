@@ -244,43 +244,39 @@
   }
 }
 
-/* ===== Publications 左图+右文 布局 ===== */
-.list__item {
-
-  .archive__item {
-    display: flex;
-    gap: 1.4rem;
-    align-items: center;   /* 垂直居中 */
-  }
-
-  /* 左图宽度固定 */
-  .archive__item-teaser {
-    flex: 0 0 260px;
-    max-width: 260px;
-  }
-
-  /* ⭐ 等比例缩放不裁剪 */
-  .archive__item-teaser img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-  }
-
-  .archive__item-body {
-    flex: 1;
-    min-width: 0;
-  }
+/* ===== Publications page: 左图+右文（高优先级，避免被覆盖） ===== */
+.page__content .archive .list__item .archive__item {
+  display: flex;
+  gap: 1.4rem;
+  align-items: flex-start;
 }
 
-/* 小屏幕上下堆叠：用 max-width 媒体条件写法更稳 */
-@include breakpoint($small) {
-  .list__item .archive__item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.page__content .archive .list__item .archive__item-teaser {
+  flex: 0 0 260px;
+  max-width: 260px;
+  overflow: visible; /* 关键：别裁图 */
+}
 
-  .list__item .archive__item-teaser {
+.page__content .archive .list__item .archive__item-teaser img {
+  width: 100%;
+  height: auto !important;      /* 关键：等比例 */
+  max-height: none !important;  /* 关键：取消 max-height 限制 */
+  object-fit: unset !important; /* 关键：禁用 cover */
+  display: block;
+  border-radius: 10px;
+}
+
+.page__content .archive .list__item .archive__item-body {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 手机端上下堆叠 */
+@include breakpoint($small) {
+  .page__content .archive .list__item .archive__item {
+    flex-direction: column;
+  }
+  .page__content .archive .list__item .archive__item-teaser {
     max-width: 100%;
     flex-basis: auto;
   }
