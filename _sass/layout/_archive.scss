@@ -244,30 +244,36 @@
   }
 }
 
-/* ===== Publications: force row layout (override column) ===== */
-.pub__item .archive__item {
-  display: flex;
-  flex-direction: row;
-  gap: 1.4rem;
-  align-items: flex-start;
-}
+/* ===== Publications: override theme column on desktop ===== */
+@media (min-width: 37.5em) {
+  .pub__item .archive__item {
+    display: flex !important;
+    flex-direction: row !important;   /* 关键 */
+    align-items: flex-start;
+    gap: 1.4rem;
+  }
 
-.page__content .archive .pub__item .archive__item-teaser{
-  flex: 0 0 260px;
-  max-width: 260px;
-}
+  .pub__item .archive__item-teaser {
+    flex: 0 0 260px !important;
+    max-width: 260px !important;
+  }
 
-.page__content .archive .pub__item .archive__item-teaser img{
-  width: 100%;
-  height: auto !important;     /* 等比例缩放 */
-  max-height: none !important; /* 禁止主题强行限制高度 */
-  object-fit: contain !important; /* 不裁剪 */
-  display: block;
+  .pub__item .archive__item-teaser img {
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    display: block;
+  }
 }
 
 /* 手机端上下堆叠 */
 @media (max-width: 37.5em) {
   .pub__item .archive__item {
-    flex-direction: column;
+    flex-direction: column !important;
+  }
+  .pub__item .archive__item-teaser {
+    max-width: 100% !important;
+    flex-basis: auto !important;
   }
 }
