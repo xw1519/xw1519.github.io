@@ -60,7 +60,8 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
-
+  color: #b91c1c; 
+  font-style: italic;
   & + p {
     text-indent: 0;
   }
