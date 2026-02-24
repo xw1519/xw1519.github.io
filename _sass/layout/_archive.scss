@@ -277,3 +277,13 @@
     flex-basis: auto !important;
   }
 }
+
+/* 顶部严格对齐 */
+.pub__item .archive__item {
+  align-items: flex-start;
+}
+
+/* 取消标题上方空隙 */
+.pub__item .archive__item-body h2 {
+  margin-top: 0 !important;
+}
