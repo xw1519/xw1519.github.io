@@ -7,6 +7,8 @@ date: 2025-07-29
 venue: 'Medical Image Analysis'
 excerpt: '(IF: 11.8, JCR-Q1) [Invited paper - MICCAI 2024 Special Issue]'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S1361841525002919?via%3Dihub'
+header:
+  teaser: /images/publications/Fig_MFConS.png
 citation: |
   @article{wu2025multi,
     title={Multi-Faceted Consistency learning with active cross-labeling for barely-supervised 3D medical image segmentation},

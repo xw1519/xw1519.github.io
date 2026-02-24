@@ -7,6 +7,8 @@ date: 2024-11-01
 venue: 'Computers in Biology and Medicine'
 excerpt: '(IF: 6.5, JCR-Q1)'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0010482524012915'
+header:
+  teaser: /images/publications/Fig_MedCLSurvey.png
 citation: |
   @article{wu2024continual,
     title={Continual learning in medical image analysis: A survey},

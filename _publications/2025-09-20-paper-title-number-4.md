@@ -6,6 +6,9 @@ permalink: /publication/2024-02-17-paper-title-number-4
 date: 2025-09-20
 venue: 'Medical Image Computing and Computer Assisted Interventions (MICCAI)'
 paperurl: 'https://papers.miccai.org/miccai-2025/paper/0019_paper.pdf'
+header:
+  teaser: /images/publications/Fig_CRCL.png
+
 citation: | 
   @inproceedings{wu2025crcl,
   title     = {Conservative-Radical Complementary Learning for Class-incremental Medical Image Analysis with Pre-trained Foundation Models},
